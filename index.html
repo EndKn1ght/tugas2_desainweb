@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Pendaftaran</title>
+  </head>
+  <body>
+    <div class="form">
+      <form action="">
+        <label id="judul">Form Pendaftaran Ekstrakurikuler</label
+        ><br /><br /><br />
+        <label for="inputName">Nama : </label><br />
+        <input
+          type="text"
+          id="inputName"
+          class="input"
+          name="nama"
+          required
+        /><br /><br />
+
+        <label for="birthday">Tanggal Lahir : </label><br />
+        <input
+          type="date"
+          get
+          id="birthday"
+          class="input"
+          name="meeting"
+          min="1990-01-01"
+          max="2030-12-31"
+          required
+        /><br /><br />
+
+        <label for="inputPhone">Nomor Handphone : </label><br />
+        <input
+          type="number"
+          id="inputPhone"
+          class="input"
+          name="hp"
+          required
+        /><br /><br />
+
+        <label for="inputEmail">Email : </label><br />
+        <input
+          type="email"
+          id="inputName"
+          class="input"
+          name="email"
+          required
+        /><br /><br />
+
+        <label for="inputEkskul">Ekskul Yang Dipilih : </label><br />
+        <select id="inputEkskul" class="input" name="inputSelect">
+          <option value="" selected disabled hidden>Pilih Kegiatan</option>
+          <option value="Bola">Bola</option>
+          <option value="Voli">Voli</option>
+          <option value="Badminton">Badminton</option>
+          <option value="Catur">Catur</option>
+          <option value="Robotika">Robotika</option></select
+        ><br /><br />
+
+        <label for="inputAlasan">Alasan Memilih : </label><br />
+        <textarea
+          id="inputAlasan"
+          class="input"
+          name="input"
+          required
+        ></textarea>
+        <br /><br />
+
+        <input type="submit" value="Submit" id="button" />
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    background-color: #EEF1FF;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    margin-top: 40px;
+    /* background-color: #D2DAFF; */
+    background-color: pink;
+    padding: 4em;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
+.input {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 1px black solid;
+}
+
+#judul {
+    font-size: 35px;
+}
+
+#inputAlasan {
+    resize: none;
+    height: 100px;
+    width: 100%;
+}
+
+#button {
+    font-size: larger;
+    background-color: #f841e5;
+    border: 0;
+    border-radius: 16px;
+    padding: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;
+    color: #EEF1FF;
+}
+
+#button:hover {
+    background-color: #EEF1FF;
+    transition: color 0.1s ease-in-out;
+    color: black;
+    cursor: pointer;
+}
+
+#inputEkskul {
+    width: 100%;
+}
+
